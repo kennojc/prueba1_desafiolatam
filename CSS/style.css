@@ -8,6 +8,16 @@ nav {
   font-weight: 300;
 }
 
+.tooltip-inner {
+    background-color: #DE7C1F; !important;
+}
+
+.tooltip.bs-tooltip-bottom .arrow:before {
+    border-bottom-color: #DE7C1F !important;
+}
+
+
+
 header {
   font-family: 'Ubuntu', sans-serif;
   font-weight:bold;
@@ -35,6 +45,7 @@ header {
     padding: 0px;
     overflow-x: hidden;
 }
+
 
 .hero h4 {
   font-size: 50px;
