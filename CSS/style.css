@@ -35,6 +35,16 @@ header {
   border-style: solid;
 }
 
+.experience h4 {
+  font-weight:600;
+}
+
+.experience i {
+  color: #004C61;
+}
+
+
+
 @media only screen and (max-width: 600px){
 
   html,body
