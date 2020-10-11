@@ -49,10 +49,26 @@ footer {
   font-weight: 300;
 }
 
+footer a {
+  text-decoration: none;
+  color: #ffffff;
+
+}
+
+footer a:link {
+  color: #ffffff;
+}
+
+footer a:visited {
+  color: #ffffff;
+}
+
 .flex-container {
   display:flex;
   align-items: center;
 }
+
+
 
 @media only screen and (max-width: 600px){
 
@@ -72,6 +88,21 @@ footer {
 
 .hero div {
   font-size: 60px;
+}
+
+.socialmedia {
+  display:block;
+  align-content: center;
+
+}
+
+.socialmedia i {
+  margin-top: 3px;
+  margin-bottom: 10px;
+}
+
+.footerLogo h2 {
+  text-align: center;
 }
 
 }
